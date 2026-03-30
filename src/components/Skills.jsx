@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faTools, faGlobe, faMicrochip, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faTools, faGlobe, faMicrochip, faCode, faCog, faCogs } from '@fortawesome/free-solid-svg-icons';
 
 export default function Skills() {
   const skillCategories = [
@@ -21,7 +21,7 @@ export default function Skills() {
     },
     {
       category: 'Frameworks',
-      icon: faReact,
+      icon: faCogs,
       skills: ['React.js', 'Node.js', 'Express.js', 'FastAPI'],
       color: 'from-green-100 to-green-50',
       gradient: 'from-green-600 to-green-700',
@@ -43,7 +43,7 @@ export default function Skills() {
     {
       category: 'Tools & DevOps',
       icon: faTools,
-      skills: ['Git', 'Figma', 'Docker'],
+      skills: ['Git', 'Figma'],
       color: 'from-teal-100 to-teal-50',
       gradient: 'from-teal-600 to-teal-700',
     },
