@@ -71,7 +71,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-4 group cursor-default">
                   <FontAwesomeIcon icon={faCheck} className="text-xl font-bold text-orange-600 flex-shrink-0 group-hover:scale-125 transition-transform" />
-                  <span className="text-base text-beige-700 font-medium">Full Stack Web Development</span>
+                  <span className="text-base text-beige-700 font-medium">MERN Stack Web Development</span>
                 </li>
                 <li className="flex items-start gap-4 group cursor-default">
                   <FontAwesomeIcon icon={faCheck} className="text-xl font-bold text-orange-600 flex-shrink-0 group-hover:scale-125 transition-transform" />

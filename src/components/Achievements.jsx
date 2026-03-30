@@ -166,7 +166,7 @@ export default function Achievements() {
               <p className="text-xs font-bold text-beige-600 uppercase tracking-widest mb-1">
                 Awards
               </p>
-              <p className="text-4xl font-black bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">3</p>
+              <p className="text-4xl font-black bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">{achievementsList.length}</p>
               <p className="text-xs text-beige-600 mt-1">Hackathons & Competitions</p>
             </div>
             <div className="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-2 border-2 border-beige-100 hover:border-orange-300 transition-all duration-300 cursor-default">
@@ -174,7 +174,7 @@ export default function Achievements() {
               <p className="text-xs font-bold text-beige-600 uppercase tracking-widest mb-1">
                 Certifications
               </p>
-              <p className="text-4xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">3</p>
+              <p className="text-4xl font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">{certificationsList.length}</p>
               <p className="text-xs text-beige-600 mt-1">Professional Certificates</p>
             </div>
             <div className="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-2 border-2 border-beige-100 hover:border-orange-300 transition-all duration-300 cursor-default">
@@ -182,7 +182,7 @@ export default function Achievements() {
               <p className="text-xs font-bold text-beige-600 uppercase tracking-widest mb-1">
                 Recognition
               </p>
-              <p className="text-4xl font-black bg-gradient-to-r from-yellow-600 to-amber-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">3</p>
+              <p className="text-4xl font-black bg-gradient-to-r from-yellow-600 to-amber-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">{achievementsList.length}</p>
               <p className="text-xs text-beige-600 mt-1">Winners & Finalists</p>
             </div>
             <div className="group text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-2 border-2 border-beige-100 hover:border-orange-300 transition-all duration-300 cursor-default">
@@ -190,7 +190,7 @@ export default function Achievements() {
               <p className="text-xs font-bold text-beige-600 uppercase tracking-widest mb-1">
                 Excellence
               </p>
-              <p className="text-4xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">6</p>
+              <p className="text-4xl font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform">{certificationsList.length + achievementsList.length}</p>
               <p className="text-xs text-beige-600 mt-1">Total Recognitions</p>
             </div>
           </div>

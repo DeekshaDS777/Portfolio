@@ -61,28 +61,21 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4 text-white uppercase tracking-wide text-sm">Connect</h4>
             <div className="flex gap-3">
               <a 
-                href="#portfolio" 
-                className="w-10 h-10 bg-beige-700 hover:bg-orange-500 rounded-lg flex items-center justify-center text-lg transition-colors shadow-md"
-                title="Portfolio"
-              >
-                <FontAwesomeIcon icon={faGlobe} className="text-white" />
-              </a>
-              <a 
-                href="#linkedin" 
+                href="https://www.linkedin.com/in/deeksha-dhana-sekar-777/" 
                 className="w-10 h-10 bg-beige-700 hover:bg-blue-500 rounded-lg flex items-center justify-center text-lg transition-colors shadow-md"
                 title="LinkedIn"
               >
                 <FontAwesomeIcon icon={faLinkedin} className="text-white" />
               </a>
               <a 
-                href="#github" 
+                href="https://github.com/deekshadhanasekar" 
                 className="w-10 h-10 bg-beige-700 hover:bg-gray-700 rounded-lg flex items-center justify-center text-lg transition-colors shadow-md"
                 title="GitHub"
               >
                 <FontAwesomeIcon icon={faGithub} className="text-white" />
               </a>
               <a 
-                href="#leetcode" 
+                href="https://leetcode.com/deekshadhanasekar/" 
                 className="w-10 h-10 bg-beige-700 hover:bg-yellow-600 rounded-lg flex items-center justify-center text-lg transition-colors shadow-md"
                 title="LeetCode"
               >
