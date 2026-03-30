@@ -104,7 +104,7 @@ export default function Hero() {
                 {/* Image Container with rounded corners */}
                 <div className="absolute inset-0 bg-gradient-to-br from-beige-100 to-beige-50 rounded-3xl overflow-hidden shadow-xl border border-beige-200">
                   <img 
-                    src="/deeksha.jpg" 
+                    src="/image.png" 
                     alt="Deeksha DhanaSekar" 
                     className="w-full h-full object-cover"
                   />
