@@ -43,7 +43,7 @@ export default function Hero() {
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-10">
               <a
-                href="/src/public/Deeksha_Resume.pdf"
+                href="/Deeksha_Resume.pdf"
                 download="Deeksha_Resume.pdf"
                 className="inline-flex items-center px-8 py-3 bg-beige-900 text-white rounded-full font-semibold text-base hover:bg-beige-800 transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5"
               >
@@ -104,7 +104,7 @@ export default function Hero() {
                 {/* Image Container with rounded corners */}
                 <div className="absolute inset-0 bg-gradient-to-br from-beige-100 to-beige-50 rounded-3xl overflow-hidden shadow-xl border border-beige-200">
                   <img 
-                    src="/src/public/deeksha.jpg" 
+                    src="/deeksha.jpg" 
                     alt="Deeksha DhanaSekar" 
                     className="w-full h-full object-cover"
                   />
