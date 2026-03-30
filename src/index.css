@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Base typography */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.3px;
+  line-height: 1.6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Premium heading styles */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.5px;
+  font-weight: 700;
+}
+
+h1 {
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+h2 {
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+}
+
+/* Smooth transitions globally */
+a, button, [role="button"] {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgb(139, 121, 105);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(139, 121, 105, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 121, 105, 0.4);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 121, 105, 0.6);
+}
